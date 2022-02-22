@@ -37,7 +37,8 @@ a {
 footer {
   height: 10vh;
   width: 100%;
-  background-color: aquamarine;
+  background-color: #282828;
+  color: #fff;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -126,6 +127,7 @@ footer {
 
 .account span {
   vertical-align: middle;
+  color: #fff;
 }
 
 /* FOOTER */
@@ -155,6 +157,11 @@ footer {
   margin: 0 10px;
 }
 
+.left-text h6,
+.left-icon {
+  color: #5a5a5a;
+}
+
 .left-icon {
   display: flex;
   flex-direction: column;
@@ -175,10 +182,6 @@ footer {
   margin-bottom: 20px;
 }
 
-/* .mid-icon div:nth-child(3) {
-  padding: 0 10px;
-} */
-
 .mid-bar {
   display: flex;
   align-items: center;
@@ -195,6 +198,33 @@ footer {
 }
 
 .progression {
+  width: 20%;
+  height: 5px;
+  background-color: #c1c1c1;
+  border-radius: 5px;
+}
+
+.foot-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-basis: 30%;
+}
+
+.foot-right i {
+  padding: 0 5px;
+}
+
+.volume {
+  width: 50%;
+  height: 5px;
+  border-radius: 5px;
+  background-color: #5a5a5a;
+  display: flex;
+  align-items: center;
+}
+
+.volume div {
   width: 20%;
   height: 5px;
   background-color: #c1c1c1;
