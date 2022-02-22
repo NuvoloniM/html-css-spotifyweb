@@ -4,20 +4,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./asset/style.css">
     <title>Spotify</title>
 </head>
 <body class="full-view">
     <aside>
-        <div class="logo"></div>
-        <div class="aside-nav">
-            <ul class="home"></ul>
-            <ul class="playlist"></ul>
+        <div class="aside-start">
+            <div class="logo">
+                <img src="./asset/img/logo.svg" alt="Spotify Logo">
+            </div>
+            <div class="aside-nav">
+                <ul class="home">
+                    <li class="active">
+                        <img src="./asset/img/home.svg" alt="">
+                        <span>Home</span>
+                    </li>
+                    <li>
+                        <img src="./asset/img/search.svg" alt="">
+                        <span>Cerca</span>
+                    </li>
+                    <li>
+                        <img src="./asset/img/libreria.svg" alt="">
+                        <span>La tua libreria</span>
+                    </li>
+                </ul>
+                <ul class="playlist">
+                    <li>
+                        <h3>playlist</h3>
+                    </li>
+                    <li class="new-playlist">
+                        <button>
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+                        <span>Crea Playlist</span>
+                    </li>
+                    <li>Nome Playlist</li>
+                    <li>Nome Playlist</li>
+                    <li>Nome Playlist</li>
+                    <li>Nome Playlist</li>
+                    <li>Nome Playlist</li>
+                    <li>Nome Playlist</li>
+                    <li>Nome Playlist</li>
+                </ul>
+            </div>
         </div>
-        <div>
-            <a href="#" class="download"></a>
+        <div class="aside-end">
+            <a href="#" class="download">Intalla app</a>
             <hr>
-            <div class="account"></div>
+            <div class="profile">
+                <img src="./asset/img/profile.svg" alt="Profile img">
+                <a href="#" class="account">
+                    <span>John Doe</span> 
+                </a>
+            </div>
         </div>
     </aside>
     <header></header>
