@@ -15,13 +15,14 @@ body {
 }
 
 aside {
-  width: 30vw;
+  width: 35vw;
   height: 90vh;
-  background-color: rgb(19, 19, 116);
+  /* background-color: rgb(19, 19, 116); */
   padding-top: 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  overflow-y: auto;
 }
 
 ul {
@@ -37,6 +38,10 @@ footer {
   height: 10vh;
   width: 100%;
   background-color: aquamarine;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
 }
 
 /* Utilities */
@@ -81,12 +86,12 @@ footer {
 }
 
 .new-playlist button {
-  padding: 5px 5px;
-  margin-right: 10px;
+  padding: 5px;
+  margin-right: 3px;
 }
 
 .new-playlist i {
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 
 /* aside nav bot */
@@ -121,4 +126,77 @@ footer {
 
 .account span {
   vertical-align: middle;
+}
+
+/* FOOTER */
+/* foot left */
+.foot-left {
+  display: flex;
+  vertical-align: middle;
+  justify-content: space-between;
+  padding: 10px;
+  flex-basis: 20%;
+}
+
+.foot-left div {
+  width: calc((100% / 3) - 20px);
+}
+
+.left-img img {
+  width: 30px;
+  height: auto;
+}
+
+.left-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.left-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.foot-mid {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 40%;
+  justify-content: center;
+  padding: 10px;
+}
+.mid-icon {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+/* .mid-icon div:nth-child(3) {
+  padding: 0 10px;
+} */
+
+.mid-bar {
+  display: flex;
+  align-items: center;
+}
+
+.bg-bar {
+  width: 80%;
+  height: 5px;
+  background-color: #5a5a5a;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.progression {
+  width: 20%;
+  height: 5px;
+  background-color: #c1c1c1;
+  border-radius: 5px;
 }
