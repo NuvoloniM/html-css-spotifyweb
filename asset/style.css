@@ -4,3 +4,22 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* Working on Iphone XR Design  */
+
+/* General */
+body {
+  background-color: #000;
+  width: 100vw;
+  height: 100vh;
+}
+
+aside {
+  width: 20vw;
+  height: 80vh;
+  background-color: rgb(19, 19, 116);
+}
+
+/* Utilities */
+
+/*  */
