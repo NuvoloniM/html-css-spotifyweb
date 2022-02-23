@@ -34,6 +34,7 @@ aside {
 main {
   width: 70vw;
   background-color: #141922;
+  overflow-y: auto;
 }
 
 footer {
@@ -174,6 +175,7 @@ a {
   padding: 20px 10px;
 }
 
+/* hero-nav */
 .hero-nav {
   display: flex;
   justify-content: center;
@@ -190,6 +192,44 @@ a {
   width: 20%;
   border-color: #adff2f;
   margin: 0 auto;
+}
+
+/* hero-album */
+.hero-album h2 {
+  color: #fff;
+  width: 100%;
+  padding: 5px 0;
+}
+
+.card-container {
+  padding: 10px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  flex-basis: 50%;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card-text {
+  text-align: center;
+  color: #fff;
+}
+
+.card-text h5 {
+  padding: 10px 5px;
+}
+
+.card-text h6,
+.hero-album h6 {
+  color: #6a6a6a;
 }
 
 /* FOOTER */
