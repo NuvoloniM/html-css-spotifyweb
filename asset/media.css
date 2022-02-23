@@ -1,4 +1,4 @@
-@media screen and (min-width: 414px) {
+@media screen and (min-width: 425px) {
   .none {
     display: block;
   }
@@ -54,5 +54,27 @@
 
   .profile {
     padding-top: 5px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+
+  aside {
+    width: 30vw;
+  }
+
+  main {
+    width: 70vw;
+  }
+
+  .card {
+    flex-basis: 25%;
+  }
+
+  .mid-icon div:nth-child(3) i {
+    font-size: 2em;
   }
 }
