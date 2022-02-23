@@ -22,11 +22,9 @@ body {
 
 aside {
   width: 10vw;
-  /* padding-top: 10px; media  */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  /* align-items: center; */
   overflow-y: hidden;
   z-index: 1;
 }
@@ -55,6 +53,10 @@ ul {
 a {
   text-decoration: none;
   color: #6a6a6a;
+}
+
+a:hover {
+  color: #fff;
 }
 
 /* Utilities */
@@ -86,6 +88,14 @@ a {
   color: #6a6a6a;
 }
 
+.aside-nav li:hover {
+  color: #fff;
+}
+
+.aside-nav li:hover img {
+  opacity: 1;
+}
+
 /* home */
 .home {
   display: flex;
@@ -95,6 +105,7 @@ a {
 .home li {
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 .home li span,
@@ -179,6 +190,10 @@ a {
   padding: 10px 30px;
 }
 
+.cta a:hover {
+  padding: 15px 40px;
+}
+
 /* hero */
 
 .hero {
@@ -227,6 +242,35 @@ a {
 
 .card img {
   width: 100%;
+}
+
+.card .overlay {
+  position: relative;
+}
+
+.overlay .overlay-bl {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: none;
+}
+
+.overlay-bl i {
+  color: #fff;
+  font-size: 3em;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.overlay:hover .overlay-bl {
+  display: block;
+  cursor: pointer;
 }
 
 .card-text {
@@ -293,6 +337,10 @@ a {
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
+}
+
+.play:hover {
+  font-size: 1.2em;
 }
 
 .mid-bar {

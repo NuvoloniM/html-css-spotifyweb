@@ -59,6 +59,7 @@
   .left-img img {
     width: 100%;
     min-width: 30px;
+    max-width: 80px;
     height: auto;
   }
 }
