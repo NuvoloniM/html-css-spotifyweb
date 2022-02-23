@@ -26,7 +26,7 @@ aside {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center;
+  /* align-items: center; */
   overflow-y: hidden;
   z-index: 1;
 }
@@ -88,10 +88,11 @@ a {
 }
 
 /* home */
-/* .home {
-  padding: 20px 0; media 
-} */
-
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 .home li {
   display: flex;
   align-items: center;
@@ -135,9 +136,9 @@ a {
 
 /* aside nav bot */
 
-.aside-end {
-  /* padding-left: 20px; media  */
-}
+/* .aside-end {
+  padding-left: 20px; media 
+} */
 
 .download img {
   display: block;
@@ -145,15 +146,11 @@ a {
   margin: 0 auto;
 }
 
-.aside-end hr {
-  border: 1px solid #6a6a6a;
-  margin: 5px 0;
-}
-
 .profile {
   display: flex;
   align-items: center;
   padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 .profile img {

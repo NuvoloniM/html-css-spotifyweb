@@ -1,0 +1,58 @@
+@media screen and (min-width: 414px) {
+  .none {
+    display: block;
+  }
+
+  aside {
+    width: 30vw;
+    padding-top: 10px;
+  }
+
+  main {
+    width: 70vw;
+  }
+
+  .logo-small {
+    display: none;
+  }
+
+  .aside-nav li {
+    padding-left: 20px;
+  }
+
+  .home {
+    padding: 20px 0;
+  }
+
+  .home li span,
+  .profile span {
+    display: block;
+  }
+
+  .home img,
+  .download img,
+  .profile img {
+    width: 25px;
+    margin: 0;
+  }
+
+  .download {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .aside-end {
+    padding-left: 20px;
+  }
+
+  .aside-end hr {
+    border: 1px solid #6a6a6a;
+    margin: 5px 0;
+    width: 100%;
+  }
+
+  .profile {
+    padding-top: 5px;
+  }
+}
